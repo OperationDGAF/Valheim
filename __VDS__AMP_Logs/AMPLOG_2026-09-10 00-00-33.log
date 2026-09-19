@@ -1,0 +1,2466 @@
+﻿[00:00:33] [Core Info/5]          : Starting AMP version 2.8.0.4 (Proteus), built 24/07/2026 17:12
+[00:00:34] [Core Info/5]          : Stream: Mainline / Release - built by CUBECODERS/buildbot on CCL-DEV
+[00:00:34] [Core Warning/9]       : Current time zone is set to Mountain Standard Time - It is recommended you switch to UTC+0 to avoid time-zone related issues
+[00:00:34] [Core Info/9]          : OS: Windows / x86_64
+[00:00:34] [Core Info/9]          : CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (6C/12T)
+[00:00:34] [Core Info/9]          : RAM: 32574MB
+[00:00:34] [Core Info/9]          : AMP Instance ID: 4ae1db13-f8fa-4178-b1ff-e024a0cfd41b
+[00:00:34] [Core Info/9]          : Loaded GenericModule version 2.8.0.4 by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Metrics publishing is enabled at udp://localhost:12820.
+[00:00:34] [Core Info/9]          : Loaded FileManagerPlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded EmailSenderPlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded WebRequestPlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded WebhookPlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded LocalFileBackupPlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded CommonCorePlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded AnalyticsPlugin by CubeCoders Limited
+[00:00:34] [Core Info/9]          : Loaded StorePlugin by StorePlugin
+[00:00:34] [Core Info/9]          : GenericModule requests dependency steamcmdplugin...
+[00:00:34] [Core Info/5]          : Loaded steamcmdplugin by CubeCoders Limited
+[00:00:34] [Core Info/5]          : GenericModule requests dependency RCONPlugin...
+[00:00:34] [Core Info/5]          : Loaded RCONPlugin by CubeCoders Limited
+[00:00:34] [Core Info/5]          : Licence Present: AMP Professional Edition - Lifetime Licence
+[00:00:35] [FileManager Notice/5] : Using keypair with fingerprint pw6kNgbElYYBV043i3Gzx71/rXV4YvmA7b7qJDqRt1g=
+[00:00:35] [FileManager Info/8]   : SFTP Server started on 0.0.0.0:2224
+[00:00:35] [Scheduler Warning/8]  : Schedule trigger b98765b9-abd3-46fa-8d8a-cb62bed1b74a has a mismatched ID!
+[00:00:36] [Webserver Info/8]     : Webserver started on http://127.0.0.1:8081
+[00:00:36] [Core Info/8]          : Checking for AMP updates...
+[00:00:36] [Core Info/8]          : Startup mode is UpdateAndStart.
+[00:00:36] [Core Info/9]          : AMP is up to date.
+CPID: 8060
+Redirecting stderr to 'E:\AMPDatastore\Instances\V2026090901\Valheim\logs\stderr.txt'
+Logging directory: 'E:\AMPDatastore\Instances\V2026090901\Valheim/logs'
+[  0%] Checking for available updates...
+[----] Verifying installation...
+Steam Console Client (c) Valve Corporation - version 1788292693
+-- type 'quit' to exit --
+Loading Steam API...OK
+force_install_dir "896660"
+Connecting anonymously to Steam Public...OK
+Waiting for client config...OK
+Waiting for user info...OK
+app_update 896660 -beta public validate
+ Update state (0x5) verifying install, progress: 35.04 (722632563 / 2062079003)
+ Update state (0x5) verifying install, progress: 79.41 (1637544379 / 2062079003)
+ Update state (0x0) unknown, progress: 0.00 (0 / 0)
+Success! App '896660' fully installed.
+quit
+Unloading Steam API...OK
+[00:00:46] [steamcmdplugin Info/9] : SteamCMD Update successful
+[00:00:49] [Generic Warning/8]    : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[00:00:49] [Generic Warning/8]    : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[00:00:50] [Generic Warning/9]    : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[00:00:50] [Generic Warning/9]    : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.234 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.679800 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.272300 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 2.425000 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.171700 ms  DeleteObjects: 0.043800 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -5.1873118
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 8.547400 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [43ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+Setting breakpad minidump AppID = 892970
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
+Server ID 90071992547409920
+Authentication:k_ESteamNetworkingAvailability_Waiting
+Steam game server initialized
+Valheim version: 1.0.7 (network version 39)
+Worldgenerator version setup:2
+Console: Valheim 1.0.7 (network version 39)
+Console: 
+Console: type "help" - for commands
+Console: 
+Render threading mode:SingleThreaded
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+Sending PlayFab login request (attempt 1)
+Login postponed until ID has been set.
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 106004 unused Assets to reduce memory usage. Loaded Objects now: 275847.
+Total: 222.692300 ms (FindLiveObjects: 16.966800 ms CreateObjectMapping: 80.559500 ms MarkObjects: 87.826000 ms  DeleteObjects: 37.339700 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 20)
+UnloadTime: 14.030900 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: Valheim 1.0.7 (network version 39)
+Console: 
+Console: type "help" - for commands
+Console: 
+isModded: False
+Zonesystem Awake 24329
+DungeonDB Awake 24329
+Worldgenerator version setup:2
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Unloading 302 unused Assets to reduce memory usage. Loaded Objects now: 276492.
+Total: 147.111500 ms (FindLiveObjects: 14.477800 ms CreateObjectMapping: 43.877200 ms MarkObjects: 88.142000 ms  DeleteObjects: 0.614100 ms)
+Zonesystem Start 24329
+Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from main
+Added 2 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from main
+Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from main
+Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from main
+Added 25 locations, 33 vegetations, 8 environments, 2 biome env-setups, 2 clutter  from main
+Added 25 locations, 35 vegetations, 12 environments, 1 biome env-setups, 2 clutter  from main
+DungeonDB Start 24329
+ZRpc timeout set to 30s 
+Loading: ZNet Start
+ZNet.LoadWorld: hinga dinga (hinga dinga), save number 3
+ZoneSystem.Load => DB2: unpacking compressed data 145,897 => 209,139 bytes
+ZoneSystem.Load => Loaded 12,254 locations
+ZDOMan.LoadChunks - Starting to load 19,979 zdos from 5 Chunks. SessionID: 1015121038, WorldVersion: 41 [DeepNorth]
+ZDOMan.LoadChunks => Loading ZDOs done [77ms]
+ZDOMan.LoadChunks => Adding ZDOs to Dictionary done [1ms]
+ZDOMan.LoadChunks => Adding ZDOs to Sectors done [2ms]
+ZDOMan.LoadChunks => Connecting Portals done [1ms]
+ZDOMan.LoadChunks => Connecting Spawners done [0ms]
+ZDOMan.LoadChunks => Connecting SyncTransforms done [0ms]
+ZDOMan.LoadChunks done [84ms]
+Player history entry with index 0:  OperationDGAF (Steam_76561197983438692, 666EFD89BDC7167B)
+Checking for any blocked players in the historical player list...
+Unloading unused assets
+Unloading 1 Unused Serialized files (Serialized files now loaded: 20)
+Loading: Placed 0/1-2 of 'Fortress Mountain' altbiome. (Valid, sectors: 0, combos: 2)
+Registering lobby
+Opened Steam server
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+[00:01:04] [Generic Info/19]      : Application started in 14 seconds.
+Game server connected
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 279444.
+Total: 140.006900 ms (FindLiveObjects: 15.424500 ms CreateObjectMapping: 37.826800 ms MarkObjects: 86.286200 ms  DeleteObjects: 0.468900 ms)
+[AmplifyOcclusion] GBuffer Normals only available in Camera Deferred Shading mode. Switched to Camera source.
+[00:03:51] [Core Activity/23]     : Authentication attempt for user admin from 127.0.0.1
+[00:03:53] [Core Activity/23]     : Authentication success
+[00:03:53] [Core Warning/8]       : Slow response: Core.Login took 2150ms to complete.
+[00:03:55] [Generic:admin Info/21] : Generic Module template config version: 6
+[00:19:26] [Core:admin Activity/28] : Starting the application.
+[00:19:26] [Generic:admin Info/28] : Server woken up due to ManualWake
+[00:19:26] [Generic:admin Warning/28] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[00:19:26] [Generic:admin Warning/28] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.210 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.409700 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.074100 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 4.737400 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.113100 ms MarkObjects: 4.405100 ms  DeleteObjects: 0.074100 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Loading: Done, Total time: -6.385117
+Set background loading budget to Low
+UnloadTime: 12.019000 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [59ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+Setting breakpad minidump AppID = 892970
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
+Server ID 90071992547409920
+Authentication:k_ESteamNetworkingAvailability_Waiting
+Steam game server initialized
+Valheim version: 1.0.7 (network version 39)
+Worldgenerator version setup:2
+Console: Valheim 1.0.7 (network version 39)
+Console: 
+Console: type "help" - for commands
+Console: 
+Render threading mode:SingleThreaded
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+Sending PlayFab login request (attempt 1)
+Login postponed until ID has been set.
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 106004 unused Assets to reduce memory usage. Loaded Objects now: 275847.
+Total: 318.517700 ms (FindLiveObjects: 30.306600 ms CreateObjectMapping: 107.510900 ms MarkObjects: 128.472200 ms  DeleteObjects: 52.227400 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 20)
+UnloadTime: 22.926000 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: Valheim 1.0.7 (network version 39)
+Console: 
+Console: type "help" - for commands
+Console: 
+isModded: False
+Zonesystem Awake 17925
+DungeonDB Awake 17925
+Worldgenerator version setup:2
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Unloading 302 unused Assets to reduce memory usage. Loaded Objects now: 276492.
+Total: 235.113700 ms (FindLiveObjects: 24.417600 ms CreateObjectMapping: 67.528500 ms MarkObjects: 141.707800 ms  DeleteObjects: 1.459600 ms)
+Zonesystem Start 17925
+Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from main
+Added 2 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from main
+Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from main
+Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from main
+Added 25 locations, 33 vegetations, 8 environments, 2 biome env-setups, 2 clutter  from main
+Added 25 locations, 35 vegetations, 12 environments, 1 biome env-setups, 2 clutter  from main
+DungeonDB Start 17925
+ZRpc timeout set to 30s 
+Loading: ZNet Start
+ZNet.LoadWorld: hinga dinga (hinga dinga), save number 3
+ZoneSystem.Load => DB2: unpacking compressed data 145,897 => 209,139 bytes
+ZoneSystem.Load => Loaded 12,254 locations
+ZDOMan.LoadChunks - Starting to load 19,979 zdos from 5 Chunks. SessionID: 422575505, WorldVersion: 41 [DeepNorth]
+ZDOMan.LoadChunks => Loading ZDOs done [164ms]
+ZDOMan.LoadChunks => Adding ZDOs to Dictionary done [7ms]
+ZDOMan.LoadChunks => Adding ZDOs to Sectors done [14ms]
+ZDOMan.LoadChunks => Connecting Portals done [5ms]
+ZDOMan.LoadChunks => Connecting Spawners done [1ms]
+ZDOMan.LoadChunks => Connecting SyncTransforms done [0ms]
+ZDOMan.LoadChunks done [197ms]
+Player history entry with index 0:  OperationDGAF (Steam_76561197983438692, 666EFD89BDC7167B)
+Checking for any blocked players in the historical player list...
+Unloading unused assets
+Unloading 1 Unused Serialized files (Serialized files now loaded: 20)
+Loading: Placed 0/1-2 of 'Fortress Mountain' altbiome. (Valid, sectors: 0, combos: 2)
+Registering lobby
+Opened Steam server
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+[00:19:43] [Generic:admin Info/28] : Application started in 16 seconds.
+Game server connected
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 279444.
+Total: 210.204500 ms (FindLiveObjects: 22.850200 ms CreateObjectMapping: 63.604600 ms MarkObjects: 123.282500 ms  DeleteObjects: 0.467000 ms)
+[AmplifyOcclusion] GBuffer Normals only available in Camera Deferred Shading mode. Switched to Camera source.
+Game - OnApplicationQuit
+Available space to current user: 615739760640. Saving is blocked if below: 5861080 bytes. Warnings are given if below: 11722160
+Shutting down
+ZNet Shutdown
+GetSaveClonePerChunk. Calculated number of actual chunk files: 5  Number of dirty chunks to save: 1 [7ms]
+PrepareSave: ZDOExtraData.PrepareSave done [21ms]
+ ### Save World Thread Started! ### 
+Considering autobackup for World. World time: 76.79997, short time: 7200, long time: 43200, backup count: 4
+Skipping backup. World session not long enough.
+World save (1/5) Cloud & Backup checks done [1ms] => Save number 4
+[00:30:00] [steamcmdplugin Info/33] : Checking current version info for 896660...
+[00:30:02] [steamcmdplugin Info/33] : Checked updates for 896660 - current build is 25185644 - latest build is 25185644
+[01:30:00] [steamcmdplugin Info/12] : Checking current version info for 896660...
+[01:30:03] [steamcmdplugin Info/17] : Checked updates for 896660 - current build is 25185644 - latest build is 25185644
+[01:56:14] [Generic:admin Info/12] : Server woken up due to OnUDPPacket
+[01:56:14] [Generic:admin Warning/12] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[01:56:14] [Generic:admin Warning/12] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.173 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.491500 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.046200 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 3.164900 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.843700 ms  DeleteObjects: 0.060900 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -6.1217412
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 11.579600 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [61ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+Setting breakpad minidump AppID = 892970
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
+Server ID 90071992547409920
+Authentication:k_ESteamNetworkingAvailability_Waiting
+Steam game server initialized
+Valheim version: 1.0.7 (network version 39)
+Worldgenerator version setup:2
+Console: Valheim 1.0.7 (network version 39)
+Console: 
+Console: type "help" - for commands
+Console: 
+Render threading mode:SingleThreaded
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+Sending PlayFab login request (attempt 1)
+Login postponed until ID has been set.
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 106004 unused Assets to reduce memory usage. Loaded Objects now: 275847.
+Total: 289.018200 ms (FindLiveObjects: 30.076700 ms CreateObjectMapping: 95.549600 ms MarkObjects: 113.366100 ms  DeleteObjects: 50.023300 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 20)
+UnloadTime: 22.306300 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+src\clientdll\cminterface.cpp (2253) : !BLoggedOn()
+Console: Valheim 1.0.7 (network version 39)
+Console: 
+Console: type "help" - for commands
+Console: 
+isModded: False
+Zonesystem Awake 15935
+DungeonDB Awake 15935
+Worldgenerator version setup:2
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Unloading 302 unused Assets to reduce memory usage. Loaded Objects now: 276492.
+Total: 206.030100 ms (FindLiveObjects: 18.455800 ms CreateObjectMapping: 64.017300 ms MarkObjects: 122.769400 ms  DeleteObjects: 0.787400 ms)
+Zonesystem Start 15935
+Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from main
+Added 2 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from main
+Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from main
+Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from main
+Added 25 locations, 33 vegetations, 8 environments, 2 biome env-setups, 2 clutter  from main
+Added 25 locations, 35 vegetations, 12 environments, 1 biome env-setups, 2 clutter  from main
+DungeonDB Start 15935
+ZRpc timeout set to 30s 
+Loading: ZNet Start
+ZNet.LoadWorld: hinga dinga (hinga dinga), save number 3
+ZoneSystem.Load => DB2: unpacking compressed data 145,897 => 209,139 bytes
+ZoneSystem.Load => Loaded 12,254 locations
+ZDOMan.LoadChunks - Starting to load 19,979 zdos from 5 Chunks. SessionID: 515302826, WorldVersion: 41 [DeepNorth]
+ZDOMan.LoadChunks => Loading ZDOs done [100ms]
+ZDOMan.LoadChunks => Adding ZDOs to Dictionary done [4ms]
+ZDOMan.LoadChunks => Adding ZDOs to Sectors done [7ms]
+ZDOMan.LoadChunks => Connecting Portals done [1ms]
+ZDOMan.LoadChunks => Connecting Spawners done [0ms]
+ZDOMan.LoadChunks => Connecting SyncTransforms done [0ms]
+ZDOMan.LoadChunks done [118ms]
+Player history entry with index 0:  OperationDGAF (Steam_76561197983438692, 666EFD89BDC7167B)
+Checking for any blocked players in the historical player list...
+Unloading unused assets
+Unloading 1 Unused Serialized files (Serialized files now loaded: 20)
+Loading: Placed 0/1-2 of 'Fortress Mountain' altbiome. (Valid, sectors: 0, combos: 2)
+Registering lobby
+Opened Steam server
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+[01:56:31] [Generic:admin Info/3] : Application started in 16 seconds.
+Game server connected
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 279444.
+Total: 209.761500 ms (FindLiveObjects: 27.082700 ms CreateObjectMapping: 56.745100 ms MarkObjects: 125.442800 ms  DeleteObjects: 0.490800 ms)
+[AmplifyOcclusion] GBuffer Normals only available in Camera Deferred Shading mode. Switched to Camera source.
+Game - OnApplicationQuit
+Available space to current user: 615739719680. Saving is blocked if below: 5864008 bytes. Warnings are given if below: 11728016
+Shutting down
+ZNet Shutdown
+GetSaveClonePerChunk. Calculated number of actual chunk files: 5  Number of dirty chunks to save: 1 [4ms]
+PrepareSave: ZDOExtraData.PrepareSave done [22ms]
+ ### Save World Thread Started! ### 
+Considering autobackup for World. World time: 88.89997, short time: 7200, long time: 43200, backup count: 4
+Skipping backup. World session not long enough.
+World save (1/5) Cloud & Backup checks done [1ms] => Save number 4
+World save (2/5) Chunks writing done [26ms]
+[02:24:58] [API:admin Activity/12] : Stopping the application.
+[02:27:08] [API:admin Activity/36] : Updating the application.
+CPID: 25524
+Redirecting stderr to 'E:\AMPDatastore\Instances\V2026090901\Valheim\logs\stderr.txt'
+Logging directory: 'E:\AMPDatastore\Instances\V2026090901\Valheim/logs'
+[  0%] Checking for available updates...
+[----] Verifying installation...
+Steam Console Client (c) Valve Corporation - version 1788292693
+-- type 'quit' to exit --
+Loading Steam API...OK
+force_install_dir "896660"
+Connecting anonymously to Steam Public...OK
+Waiting for client config...OK
+Waiting for user info...OK
+app_update 896660 -beta public validate
+ Update state (0x5) verifying install, progress: 32.84 (677255151 / 2062079003)
+ Update state (0x5) verifying install, progress: 70.84 (1460780576 / 2062079003)
+ Update state (0x0) unknown, progress: 0.00 (0 / 0)
+Success! App '896660' fully installed.
+quit
+Unloading Steam API...OK
+[02:27:18] [steamcmdplugin:admin Info/38] : SteamCMD Update successful
+[02:27:21] [Generic:admin Warning/36] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:27:21] [Generic:admin Warning/36] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:27:50] [Core:admin Activity/38] : Starting the application.
+[02:27:50] [Generic:admin Warning/38] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:27:50] [Generic:admin Warning/38] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.210 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.433200 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.048500 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 3.008300 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.155600 ms MarkObjects: 2.651000 ms  DeleteObjects: 0.046400 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -8.1727761
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 15.191700 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+Removing orphan save file: E:\AMPDatastore\Instances\V2026090901\Valheim\896660\Saves\worlds_local\hinga dinga\_main.4.db2
+Removing orphan save file: E:\AMPDatastore\Instances\V2026090901\Valheim\896660\Saves\worlds_local\hinga dinga\_main.4.chunks
+SaveSystem.Reload for World is done [100ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 282.746900 ms (FindLiveObjects: 30.037900 ms CreateObjectMapping: 98.742900 ms MarkObjects: 108.069200 ms  DeleteObjects: 45.896000 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 26.316000 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 17908
+DungeonDB Awake 17908
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+Steam manager on destroy
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:28:02] [Generic:admin Warning/36] : The application stopped unexpectedly. Exit code 0
+[02:28:05] [Generic:admin Warning/35] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:28:05] [Generic:admin Warning/35] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.228 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.579500 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.118200 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 2.819300 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.140100 ms MarkObjects: 2.469200 ms  DeleteObjects: 0.046400 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -6.4243163
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 11.592800 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [66ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 282.757900 ms (FindLiveObjects: 23.160100 ms CreateObjectMapping: 99.875000 ms MarkObjects: 110.971900 ms  DeleteObjects: 48.749700 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 19.022700 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 16939
+DungeonDB Awake 16939
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+Steam manager on destroy
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:28:16] [Generic:admin Warning/40] : The application stopped unexpectedly. Exit code 0
+[02:28:16] [Generic:admin Warning/40] : Application failed to start 2 times, not restarting.
+[02:28:30] [Core:admin Activity/38] : Starting the application.
+[02:28:30] [Generic:admin Warning/38] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:28:30] [Generic:admin Warning/38] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.147 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.358700 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.038600 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 2.033400 ms (FindLiveObjects: 0.113600 ms CreateObjectMapping: 0.091100 ms MarkObjects: 1.798000 ms  DeleteObjects: 0.030700 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Loading: Done, Total time: -5.9770353
+Set background loading budget to Low
+UnloadTime: 11.273000 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [63ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 275.049900 ms (FindLiveObjects: 21.248900 ms CreateObjectMapping: 94.385200 ms MarkObjects: 102.902100 ms  DeleteObjects: 56.513000 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 23.092600 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 15691
+DungeonDB Awake 15691
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+Steam manager on destroy
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:28:40] [Generic:admin Warning/12] : The application stopped unexpectedly. Exit code 0
+[02:28:43] [Generic:admin Warning/12] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:28:43] [Generic:admin Warning/12] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.333 seconds
+- Finished resetting the current domain, in  0.006 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.587300 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.068700 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 3.282400 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.924000 ms  DeleteObjects: 0.060100 ms)
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -8.8920717
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 11.877500 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [74ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 320.649000 ms (FindLiveObjects: 32.765800 ms CreateObjectMapping: 108.560700 ms MarkObjects: 119.196700 ms  DeleteObjects: 60.125200 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 25.672200 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 14368
+DungeonDB Awake 14368
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Steam manager on destroy
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:28:57] [Generic:admin Warning/21] : The application stopped unexpectedly. Exit code 0
+[02:28:57] [Generic:admin Warning/21] : Application failed to start 2 times, not restarting.
+[02:30:00] [steamcmdplugin Info/24] : Checking current version info for 896660...
+[02:30:03] [steamcmdplugin Info/21] : Checked updates for 896660 - current build is 25185644 - latest build is 25185644
+[02:35:48] [Core:admin Activity/7] : Starting the application.
+[02:35:48] [Generic:admin Warning/7] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:35:48] [Generic:admin Warning/7] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.196 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.415900 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.033000 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 3.138000 ms (FindLiveObjects: 0.131700 ms CreateObjectMapping: 0.115900 ms MarkObjects: 2.764900 ms  DeleteObjects: 0.125200 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -6.5436706
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 11.568100 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [62ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 276.165600 ms (FindLiveObjects: 20.750400 ms CreateObjectMapping: 100.266700 ms MarkObjects: 106.651700 ms  DeleteObjects: 48.496300 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 26.364800 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 16702
+DungeonDB Awake 16702
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+Steam manager on destroy
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:35:58] [Generic:admin Warning/23] : The application stopped unexpectedly. Exit code 0
+[02:36:01] [Generic:admin Warning/14] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:36:01] [Generic:admin Warning/14] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.213 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[02:36:02] [Core:admin Activity/21] : Starting the application.
+UnloadTime: 0.429900 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.059700 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 3.316500 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.152800 ms MarkObjects: 2.953300 ms  DeleteObjects: 0.064600 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loading: Done, Total time: -6.6501076
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Set background loading budget to Low
+UnloadTime: 11.135200 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [59ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 296.061600 ms (FindLiveObjects: 26.016500 ms CreateObjectMapping: 108.308100 ms MarkObjects: 109.785500 ms  DeleteObjects: 51.950700 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 26.688000 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 16747
+DungeonDB Awake 16747
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Steam manager on destroy
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:36:12] [Generic:admin Warning/7] : The application stopped unexpectedly. Exit code 0
+[02:36:12] [Generic:admin Warning/7] : Application failed to start 2 times, not restarting.
+[02:36:18] [Core Activity/5]      : Authentication attempt for user admin from 127.0.0.1
+[02:36:20] [Core Activity/14]     : Authentication success
+[02:36:20] [Core Warning/7]       : Slow response: Core.Login took 2088ms to complete.
+[02:36:21] [Generic:admin Info/7] : Generic Module template config version: 6
+[02:36:24] [Core:admin Activity/14] : Starting the application.
+[02:36:24] [Generic:admin Warning/14] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:36:24] [Generic:admin Warning/14] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.147 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.392600 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.034400 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 2.223700 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.099100 ms MarkObjects: 1.951900 ms  DeleteObjects: 0.038900 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Loading: Done, Total time: -6.1424875
+Set background loading budget to Low
+UnloadTime: 10.870100 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [60ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 278.608200 ms (FindLiveObjects: 24.547400 ms CreateObjectMapping: 97.643900 ms MarkObjects: 97.647200 ms  DeleteObjects: 58.768000 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 21.084300 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 15423
+DungeonDB Awake 15423
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Steam manager on destroy
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:36:34] [Generic:admin Warning/5] : The application stopped unexpectedly. Exit code 0
+[02:36:37] [Generic:admin Warning/23] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[02:36:37] [Generic:admin Warning/23] : Tried to merge config file ./Valheim/896660/./BepInEx/config/valheim_plus.cfg but the file does not exist.
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/Managed'
+Mono config path = 'E:/AMPDatastore/Instances/V2026090901/Valheim/896660/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.75f1 (26349cd2a5c8)
+[Subsystems] Discovering subsystems at path E:/AMPDatastore/Instances/V2026090901/Valheim/896660/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.195 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.479000 ms
+Set background loading budget to Low
+Loading first scene!
+Preferences initialized! Activating first scene!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.043500 ms
+Loading: Starting to load scene: start.unity (169d7618616154c03be07e9ad3af5893)
+Set background loading budget to Normal
+Loaded localization file #0 - 'localization' language: 'English'
+Loaded localization file #1 - 'localization_extra' language: 'English'
+Loaded localization file #2 - 'heightmap_message' language: 'English'
+Loaded localization file #3 - 'localization_witch' language: 'English'
+Loaded localization file #4 - 'localization_ashlands' language: 'English'
+Loaded localization file #5 - 'localization_deepnorth' language: 'English'
+Loaded localization file #6 - 'localization_captions' language: 'English'
+Loaded localization file #7 - 'localization_warriortitles' language: 'English'
+Loaded localization file #8 - 'localization_combatupdate' language: 'English'
+Loaded localization file #9 - 'localization_ps' language: 'English'
+Loaded localization file #10 - 'localization_celebrationupdate' language: 'English'
+Loaded localization file #11 - 'localization_xbox' language: 'English'
+Loaded localization file #12 - 'localization_switch' language: 'English'
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 4.503800 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.277300 ms MarkObjects: 3.894600 ms  DeleteObjects: 0.098600 ms)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+AsyncResourceUpload failed.
+AsyncResourceUpload failed.
+The referenced script on this Behaviour (Game Object '') is missing!
+Set background loading budget to High
+GPU Device: 0000:0000 (Unknown)
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Loading: Done, Total time: -6.7525849
+Set background loading budget to Low
+UnloadTime: 10.048700 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+Missing audio clip in music respawn
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Setting -savedir to: Saves
+Get create world hinga dinga
+SaveSystem.Reload for World is done [58ms]
+Setting world modifier preset: normal
+Using environment steamid 892970
+Using steam APPID:892970
+[Steamworks.NET] GameServer.Init() failed.
+Steam is not initialized
+Awake of network backend failed
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+Builder started
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+The WorldGenerator instance was null
+NullReferenceException: The WorldGenerator instance was null
+  at Heightmap.Generate () [0x0001a] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.Regenerate () [0x00007] in <4adf31c5dea44825ae0d669148c51b19>:0 
+  at Heightmap.OnEnable () [0x00047] in <4adf31c5dea44825ae0d669148c51b19>:0 
+SaveSystem.Reload for Character is done [0ms]
+Failed to play intro cinematic
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Starting music menu
+Unloading 105968 unused Assets to reduce memory usage. Loaded Objects now: 275722.
+Total: 295.247500 ms (FindLiveObjects: 25.227400 ms CreateObjectMapping: 97.864900 ms MarkObjects: 107.199800 ms  DeleteObjects: 64.954400 ms)
+Stopping build thread
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnloadTime: 24.459400 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+Audioman already exist, destroying self
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Steam is not initialized
+Awake of network backend failed
+Zonesystem Awake 17316
+DungeonDB Awake 17316
+OnGUI function detected on MonoBehaviour, but not called, because IMGUI module is stripped.
+Console: /w [text] - Whisper
+Console: /s [text] - Shout
+Console: /die - Kill yourself
+Console: /resetspawn - Reset spawn point
+Console: /[emote]
+Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest, vibe, loveyou
+Console: 
+NullReferenceException: Object reference not set to an instance of an object
+  at MagicaCloth2.MagicaWindZone.Awake () [0x00006] in <0c09c3140f5b4c7d8f10fddcc265f2bd>:0 
+[AmplifyOcclusion] System does not support CopyTexture. CacheAware will be disabled.
+ZNet OnDestroy
+NullReferenceException: Object reference not set to an instance of an object
+  at ZNet.OnDestroy () [0x0001d] in <4adf31c5dea44825ae0d669148c51b19>:0 
+Net scene destroyed
+Steam manager on destroy
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[02:36:48] [Generic:admin Warning/5] : The application stopped unexpectedly. Exit code 0
+[02:36:48] [Generic:admin Warning/5] : Application failed to start 2 times, not restarting.
+[02:47:33] [Core Info/3]          : Stop requested: Soft-stop requested via IPC
+[02:47:33] [System Notice/3]      : AMP shutdown requested.
+[02:47:33] [System Notice/3]      : Stopping Application...
+[02:47:38] [System Notice/3]      : Stopping Web Server...
+[02:47:38] [Core Info/34]         : Web server shutdown.
+[02:47:38] [System Notice/34]     : Goodbye!
+I miss you Casper. <3

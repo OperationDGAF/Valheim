@@ -1,0 +1,28 @@
+﻿[13:36:06] [Core Info/5]          : Starting AMP version 2.8.0.4 (Proteus), built 24/07/2026 17:12
+[13:36:06] [Core Info/5]          : Stream: Mainline / Release - built by CUBECODERS/buildbot on CCL-DEV
+[13:36:06] [Core Info/5]          : Loading configuration from provisionargs.kvp...
+[13:36:06] [Core Warning/8]       : Current time zone is set to Mountain Standard Time - It is recommended you switch to UTC+0 to avoid time-zone related issues
+[13:36:06] [Core Info/8]          : OS: Windows / x86_64
+[13:36:06] [Core Info/8]          : CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (6C/12T)
+[13:36:06] [Core Info/8]          : RAM: 32574MB
+[13:36:06] [Core Info/8]          : AMP Instance ID: 4ae1db13-f8fa-4178-b1ff-e024a0cfd41b
+[13:36:06] [System Info/8]        : Performing first-time setup for this instance, please wait...
+[13:36:09] [Core Info/8]          : Loaded GenericModule version 2.8.0.4 by CubeCoders Limited
+[13:36:09] [Core Info/8]          : Metrics publishing is enabled at udp://localhost:12820.
+[13:36:09] [Core Info/8]          : Loaded FileManagerPlugin by CubeCoders Limited
+[13:36:09] [Core Info/8]          : Loaded EmailSenderPlugin by CubeCoders Limited
+[13:36:10] [Core Info/8]          : Loaded WebRequestPlugin by CubeCoders Limited
+[13:36:10] [Core Info/8]          : Loaded WebhookPlugin by CubeCoders Limited
+[13:36:10] [Core Info/8]          : Loaded LocalFileBackupPlugin by CubeCoders Limited
+[13:36:10] [Core Info/8]          : Loaded CommonCorePlugin by CubeCoders Limited
+[13:36:10] [Core Info/8]          : Loaded AnalyticsPlugin by CubeCoders Limited
+[13:36:10] [Analytics Info/7]     : GeoIP database not found, downloading...
+[13:36:10] [Core Info/8]          : Loaded StorePlugin by StorePlugin
+[13:36:10] [Core Info/8]          : GenericModule requests dependency steamcmdplugin...
+[13:36:10] [Core Info/7]          : Loaded steamcmdplugin by CubeCoders Limited
+[13:36:10] [Core Info/7]          : GenericModule requests dependency RCONPlugin...
+[13:36:10] [Core Info/7]          : Loaded RCONPlugin by CubeCoders Limited
+[13:36:10] [Core Info/7]          : Performing activation, please wait...
+[13:36:12] [Core Info/7]          : Activated successfully.
+[13:36:12] [Core Info/7]          : Licence Present: AMP Professional Edition - Lifetime Licence
+[13:36:13] [System Info/7]        : AMP has completed its first time setup. Saving settings and shutting down.
