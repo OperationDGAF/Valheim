@@ -4,7 +4,7 @@ or (bob forbid) the whole house and people containing that laptop y'all can
 continue on! Yoshi and/or Jordan have hosted servers similarly in the past.
 i'd solicit their help. but AI should also know what to do with a backed up
 "worlds_local" folder. it should contain everything you need. cheers and
-hinga dinga, everybody. -jeep
+hinga dinga durgen, everybody. -jeep
 
 World name / -world argument: hinga dinga
 
@@ -22,6 +22,6 @@ Restore:
 7. Start the server and verify familiar buildings and progression.
 
 Other:
-- Valheim version will be whatever's the most current, stable one released on steam
-- No mods, just vanilla
+- Valheim version will (hopefully lol) be whatever's the most current, stable one released on steam
+- No mods, just vanilla (i don't foresee this changing, but idk)
 - Character save data are client-side
